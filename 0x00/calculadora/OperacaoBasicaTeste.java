@@ -12,7 +12,7 @@ public class OperacaoBasicaTeste {
 
     public static boolean testar_subtracao(){
 
-        if (OperacaoBasica.subtrair(5, 3) == 3){
+        if (OperacaoBasica.subtrair(5, 3) == 2){
             return true;
         }
         return false;
@@ -20,7 +20,7 @@ public class OperacaoBasicaTeste {
 
     public static boolean testar_multiplicacao(){
 
-        if (OperacaoBasica.multiplicar(5, 3 ) == 8){
+        if (OperacaoBasica.multiplicar(5, 3 ) == 15){
             return true;
         }
         return false;
