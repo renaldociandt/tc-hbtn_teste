@@ -5,6 +5,7 @@ import static org.testng.AssertJUnit.*;
 
 public class TesteEmail {
 
+    @Test
     public void testar_email_com_arroba(){
         assertTrue(Pessoa.emailValid("email_teste@dominio.com.br"));
     }
